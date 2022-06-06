@@ -1,0 +1,40 @@
+﻿@using Entities
+@using Business
+
+@inject NavigationManager NavManager
+<div>
+
+    <EditForm Model="oCategory">
+        <div class="form-group">
+            <label for="name">Referencia:</label>
+            <InputText id="categoryId" @bind-Value="oCategory.CategoryId" class="form-control"></InputText>
+            <ValidationMessage For="@(()=> oCategory.CategoryId)" class="text-danger" />
+        </div>
+
+        <div class="form-group">
+            <label for="name">Nombre de la categoria:</label>
+            <InputText id="name" @bind-Value="oCategory.CategoryName" class="form-control"></InputText>
+            <ValidationMessage For="@(()=> oCategory.CategoryName)" class="text-danger" />
+        </div>
+
+        <div class="form-group">
+            <input type="button" value="Agregar categoria" @onclick="Save" class="form-control btn btn-dark" />
+
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    CategoryEntity oCategory = new CategoryEntity();
+    List<CategoryEntity> categories = new List<CategoryEntity>();
+
+    private void Save()
+    {
+        B_Category.CreateCategory(oCategory);
+        NavManager.NavigateTo("category/list");
+    }
+    private void HandleValidSubmit()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+}

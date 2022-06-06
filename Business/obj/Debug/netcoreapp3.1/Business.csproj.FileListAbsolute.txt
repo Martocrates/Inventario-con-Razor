@@ -1,0 +1,15 @@
+C:\Users\52999\source\repos\Platzi\Inventory\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\52999\source\repos\Platzi\Inventory\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\52999\source\repos\Platzi\Inventory\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\52999\source\repos\Platzi\Inventory\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\52999\source\repos\Platzi\Inventory\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\52999\source\repos\Platzi\Inventory\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\52999\source\repos\Platzi\Inventory\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\52999\source\repos\Platzi\Inventory\Business\obj\Debug\netcoreapp3.1\Business.pdb
